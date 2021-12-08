@@ -105,6 +105,6 @@ def main(path):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="传入翻译文件夹路径")
-    parser.add_argument("--path", type=str, default=r"D:\tools\ic_file\ICChat Files\huxu\files\test_rename")
+    parser.add_argument("--path", type=str, default=r"D:\tools")
     args = parser.parse_args()
     main(args.path)
